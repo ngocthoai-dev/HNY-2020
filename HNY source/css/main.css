@@ -1,0 +1,85 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  position: relative; }
+  html .header, body .header {
+    padding: 5px;
+    display: inline-block;
+    background-color: transparent;
+    position: absolute;
+    z-index: 7; }
+    html .header form .name-input, body .header form .name-input {
+      border-radius: 10px;
+      box-shadow: 0 0 5px 1px #ddd inset;
+      cursor: pointer;
+      height: 30px; }
+    html .header form #name-submit, body .header form #name-submit {
+      display: none; }
+    html .header form label, body .header form label {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      position: relative;
+      cursor: pointer;
+      border-radius: 10px;
+      box-shadow: 0 0 5px 1px #aaa inset;
+      background: radial-gradient(#66ffcc, #ccffff, #99ccff); }
+    html .header form label:before, body .header form label:before {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f007";
+      position: absolute;
+      transition: opacity .5s; }
+    html .header form label:hover:before, body .header form label:hover:before {
+      opacity: 0; }
+    html .header form label:after, body .header form label:after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f21b";
+      opacity: 0;
+      transition: opacity .5s; }
+    html .header form label:hover:after, body .header form label:hover:after {
+      opacity: 1; }
+    html .header form .document, body .header form .document {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 10px;
+      box-shadow: 0 0 10px 1px #aaa inset;
+      background: radial-gradient(#66ffcc, #ccffff, #99ccff); }
+  html .activity, body .activity {
+    position: relative;
+    width: 100%;
+    height: 100%; }
+    html .activity .work-flow, body .activity .work-flow {
+      width: inherit;
+      height: inherit;
+      position: absolute;
+      left: 0;
+      top: 0; }
+    html .activity #HNY, body .activity #HNY {
+      height: 70%;
+      z-index: 6; }
+    html .activity #firework, body .activity #firework {
+      height: 70%;
+      z-index: 5; }
+    html .activity #cannon, body .activity #cannon {
+      z-index: 4; }
+    html .activity #panel2020, body .activity #panel2020 {
+      z-index: 3; }
+    html .activity #runningRat, body .activity #runningRat {
+      z-index: 3; }
+    html .activity #backCannon, body .activity #backCannon {
+      z-index: 2; }
+    html .activity #grass, body .activity #grass {
+      z-index: 1; }
+    html .activity #heart, body .activity #heart {
+      z-index: 0; }
+    html .activity #background, body .activity #background {
+      z-index: 0; }

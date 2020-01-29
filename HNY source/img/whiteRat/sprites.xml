@@ -1,0 +1,8 @@
+<TextureAtlas imagePath="sprites.png">
+	<SubTexture name="d6ah43k-2a386ebc-2fbb-4522-ae5f-79e257ed9de4_000.png" x="0" y="263" width="436" height="134"/>
+	<SubTexture name="d6ah43k-2a386ebc-2fbb-4522-ae5f-79e257ed9de4_001.png" x="438" y="263" width="435" height="136"/>
+	<SubTexture name="d6ah43k-2a386ebc-2fbb-4522-ae5f-79e257ed9de4_002.png" x="0" y="0" width="441" height="130"/>
+	<SubTexture name="d6ah43k-2a386ebc-2fbb-4522-ae5f-79e257ed9de4_003.png" x="0" y="132" width="438" height="129"/>
+	<SubTexture name="d6ah43k-2a386ebc-2fbb-4522-ae5f-79e257ed9de4_004.png" x="443" y="0" width="434" height="130"/>
+	<SubTexture name="d6ah43k-2a386ebc-2fbb-4522-ae5f-79e257ed9de4_005.png" x="440" y="132" width="434" height="125"/>
+</TextureAtlas>

@@ -1,0 +1,6 @@
+<TextureAtlas imagePath="sprites.png">
+	<SubTexture name="giphy_000.png" x="0" y="129" width="205" height="122"/>
+	<SubTexture name="giphy_001.png" x="0" y="0" width="214" height="127"/>
+	<SubTexture name="giphy_002.png" x="0" y="253" width="200" height="135"/>
+	<SubTexture name="giphy_003.png" x="202" y="253" width="187" height="146"/>
+</TextureAtlas>
